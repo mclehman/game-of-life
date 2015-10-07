@@ -25,6 +25,8 @@ Implements the game logic. The rules are quite simple. A grid of cells steps evo
 <li>A live cell with more than three live neighbors dies.</li>
 </ul>
 
+More information can be found on its [Wikipedia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+
 <h2>Status</h2>
 
 Stable, if not optimized. While the program has no performance issues, it is a naïve implementation consisting solely of a two-dimensional which is fully copied to calculate the next generation.
@@ -34,5 +36,5 @@ Stable, if not optimized. While the program has no performance issues, it is a n
 <ul>
 <li>Reduce memory usage by using line buffers rather than an entirely new array.</li>
 <li>Implement tracking of dead zones (i.e. skip cells guaranteed not to come to life).</li>
-<li>Implement more sophisticated algorithm. Hashlife? Perhaps as a challenge.</li>
+<li>Implement more sophisticated algorithm. [Hashlife](https://en.wikipedia.org/wiki/Hashlife)? Perhaps as a challenge.</li>
 </ul>
