@@ -27,7 +27,7 @@ More information can be found on its [Wikipedia page](https://en.wikipedia.org/w
 
 ## Status
 
-Stable, if not optimized. While the program has no performance issues, it is a naïve implementation consisting solely of a two-dimensional which is fully copied to calculate the next generation.
+Stable, if not optimized. While the program has no performance issues, it is a naïve implementation consisting solely of a two-dimensional array which is fully copied to calculate the next generation.
 
 ### Possible Updates
 
